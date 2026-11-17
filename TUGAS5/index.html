@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My toko </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!--Header-->
+    <header class="header">
+        <div class="logo">
+            <h1>TOKO ADIT GANTENG</h1>
+            <p>Online Store</p>
+        </div>
+        <nav class="navigation">
+            <button><a href="#home">Home</a></button>
+            <button><a href="#produk">Produk</a></button>
+            <button><a href="#keranjang">Keranjang</a></button>
+        </nav>
+    </header>
+
+
+    <!--Halaman Utama-->
+    <main id="home">
+        <!-- JUDUL HALAMAN -->
+        <section class="welcome">
+            <h2>.</h2>
+            <p> Raja nya toko dengan barang murah murah semua</p>
+        </section>
+        <!--Daftar Produk-->
+        <section class="product-section" id="produk">
+            <div class="section-title">
+                <h2>Daftar Produk</h2>
+                <p>Pilih produk yang ingin kamu beli.</p>
+            </div>
+            <!-- Produk di tampilkan dari (JS) -->
+            <div id="product-list" class="product-list">
+            </div>
+        </section>
+
+
+        <!--Keranjang Belanja-->
+        <section class="cart-section" id="keranjang">
+            <div class="section-title">
+                <h2>Keranjang Belanja</h2>
+                <p>Daftar produk yang anda beli : </p>
+            </div>
+            <!-- Daftar item keranjang -->
+            <ul id="cart-list" class="cart-list"></ul>
+            <!--Ringkasan Keranjangnya-->
+            <div class="cart-summary">
+                <p>Jumlah Item:<span id="total-items">0</span></p>
+                <p>Total Harga:<span id="total-price">Rp0</span></p>
+                <!--tombol buat mengosongkan kerangjang-->
+                <button id="remove-last" class="btn-undo">Batalkan Item Terakhir</button>
+                <button id="clear-cart" class="btn-clear">Kosongkan Keranjang</button>
+                <button id="checkout" class="btn-checkout">Checkout</button>
+                <div id="order-summary" class="order-summary"></div>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
