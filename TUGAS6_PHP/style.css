@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 30px;
+}
+.container {
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+h1 {
+    color: #fb0202;
+}
+.menu {
+    margin-top: 30px;
+}
+.menu a {
+    display: block;
+    background-color: #ff00dd;
+    color: rgb(245, 242, 242);
+    text-decoration: none;
+    padding: 15px;
+    margin: 15px auto;
+    width: 250px;
+    border-radius: 5px;
+}
+.menu a:hover {
+    background-color: #ff01c4;
+}
+.hasil {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px;
+}
+.hasil span {
+    background-color: #fb02d9;
+    padding: 15px 25px;
+    font-size: 25px;
+    border: 1px solid black;
+}
+table {
+    margin: 25px auto;
+    border-spacing: 4px;
+    background-color: #cccccc;
+}
+th {
+    background-color: #00e600;
+    padding: 10px;
+    border: 2px solid gray;
+    font-size: 22px;
+}
+td {
+    padding: 10px;
+    border: 2px solid gray;
+    font-size: 22px;
+    text-align: center;
+}
+.genap {
+    background-color: #00e5ed;
+}
+.ganjil {
+    background-color: yellow;
+}
+.kembali {
+    display: inline-block;
+    margin: 20px;
+    padding: 12px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
